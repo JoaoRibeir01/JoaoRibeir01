@@ -1,4 +1,4 @@
-; Projeto codificado em Assembly
+; Projeto codificado em Assembly pic 18f47q10
 ; código exemplo que permite configurar vários PORT, o clock, o ADC, e as interrupções
 ; implementa também a leitura do ADC utilizando um mecanismo baseado em interrupções
 ;    
