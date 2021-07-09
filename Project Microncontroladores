@@ -1,3 +1,4 @@
+; Projeto codificado em Assembly
 ; código exemplo que permite configurar vários PORT, o clock, o ADC, e as interrupções
 ; implementa também a leitura do ADC utilizando um mecanismo baseado em interrupções
 ;    
