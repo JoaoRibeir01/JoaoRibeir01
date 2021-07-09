@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @JoaoRibeir01
+- 👋 I’m @JoaoRibeir01
 - 🌱 I’m currently learning Physics Engineering,UM. Forward to get a master degree in Physics Engineering.
 - 💞️ I’m looking to collaborate on every software/ project related to investigate/program related to Phsycis.
 - 📫 How to reach me: offical page Github or via Email.
