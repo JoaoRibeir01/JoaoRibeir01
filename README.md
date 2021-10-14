@@ -1,5 +1,6 @@
 - 👋 I’m @JoaoRibeir01
-- I’m currently learning Physics Engineering,UM. Forward to get a master degree in Physics Engineering.
+- Physics Engineering,UM. 
+- Currently in master degree in Physics Engineering, UA.
 - I’m looking to collaborate on every software/ project related to investigate/program related to Phsycis.
 - How to reach me: offical page Github or via Email.
 
