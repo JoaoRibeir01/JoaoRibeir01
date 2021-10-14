@@ -1,8 +1,12 @@
+/* Jogo de basket criado em C, com m√∫ltiplas melhorias na posi√ß√£o do jogador e na pontua√ß√£o adquirida.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
 #include <time.h>
 #include <locale.h>
+
+
 
 /* .As velocidades escritas em m/s;
 .O angulo de lancamento em graus;
@@ -38,7 +42,7 @@ void wJogadores(){ //ficheiro com dados dos jogadores
 		printf ("Erro ao abrir o arquivo");
 		exit (1);
 	}else{
-		printf ("N˙mero de jogadores: ");
+		printf ("N√∫mero de jogadores: ");
 		scanf ("%d",&num);
 		}
 	fwrite(&num,sizeof(int),1,arcplayers);
@@ -67,7 +71,7 @@ void wAreas(){ //ficheiro com areas inteiras geradas pelo utilizador
 			printf ("Limite da area 1: \n");
 			scanf ("%f",&x);
 			if (x<=0||x>=14||(x!=(int)x)){
-				printf ("Valor inv·lido.\n");
+				printf ("Valor inv√°lido.\n");
 				i--;
 			}else{
 				c1=x;
@@ -78,7 +82,7 @@ void wAreas(){ //ficheiro com areas inteiras geradas pelo utilizador
 			printf ("Limite da area 2: \n");
 			scanf ("%f",&y);
 			if (y<=c1||y>=14||(y!=(int)y)){
-				printf ("Valor inv·lido.\n");
+				printf ("Valor inv√°lido.\n");
 				i--;
 			}else{
 				c2=y;
@@ -208,14 +212,14 @@ void lancamento(int r,int l){
 				int area = gerarAreas(j[jog].d);
 				rond;
 				print(lanc);
-				printf ("NÕVEL %d\n",rond+1);
+				printf ("N√çVEL %d\n",rond+1);
 				printf ("JOGADOR %d\n",jog+1);
-				printf ("¡rea de lanÁamento: %d\n",area);
+				printf ("√Årea de lan√ßamento: %d\n",area);
 				printf ("Velocidade inicial do salto(componente vertical): ");
 				scanf ("%f",&j[jog].r[rond].l[lanc].v1);
-				printf ("¬ngulo de lanÁamento da bola, entre 0 e 80 graus: ");
+				printf ("√Çngulo de lan√ßamento da bola, entre 0 e 80 graus: ");
 				scanf ("%f",&j[jog].r[rond].l[lanc].theta);
-				printf ("Velocidade inicial do lanÁamento: ");
+				printf ("Velocidade inicial do lan√ßamento: ");
 				scanf ("%f",&j[jog].r[rond].l[lanc].vb);
 				j[jog].r[rond].l[lanc].hSalto = alturaSalto(j[jog].r[rond].l[lanc].v1); //para  verificar s ebola entra
 				float teta = j[jog].r[rond].l[lanc].theta;
@@ -270,7 +274,7 @@ void lancamento(int r,int l){
 		
 	else{
 		if (num>1)
-			printf ("O vencedor È o jogador %d com classificacao de %d",v+1,add[v]);
+			printf ("O vencedor √© o jogador %d com classificacao de %d",v+1,add[v]);
 	}
 	system("PAUSE");
 	free(add);
@@ -329,7 +333,7 @@ void novoJogo(){
 void menu(){
 	int acao;
 	printf ("1.Novo jogo\n2.Sair\n");
-	printf ("Selecione a opÁ„o: \n");
+	printf ("Selecione a op√ß√£o: \n");
 	scanf ("%d",&acao);
 	if (acao==1)
 	novoJogo();
