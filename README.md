@@ -1,6 +1,6 @@
 - 👋 I’m @JoaoRibeir01
 - Physics Engineering,UM. Gettin' a master degree in Physics Engineering, Aveiro University. 
-- I’m looking to collaborate on every software/ project related to investigate/program related to Physcis Engineering.
+- Working at SIM - Sociedade Irmãos Miranda SA.
 - How to reach me: offical page Github or via Email: joao.pribeiro@ua.pt
 - Developed a project in quantum criptography for BSc based in quantum key distribution with polarization states generated using phase modulators.
 - Currently developing a project for my MSc.
